@@ -1,0 +1,22 @@
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Student {
+  student_id   String  @id
+  student_name String
+
+  @@map("students")  // แม็ป model Student กับ table students
+}
+
+model Video {
+  id    Int    @id @default(autoincrement())
+  title String
+
+  @@map("videos")  // แม็ป model Video กับ table videos
+}
