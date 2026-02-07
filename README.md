@@ -1,4 +1,4 @@
-# Student Attention Analysis Application
+Student Attention
 
 ## 🎯 Business Problem
 With more online classes, teachers struggle to monitor student attention and engagement in real time.
