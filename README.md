@@ -33,8 +33,3 @@ This system consists of:
 - Can be extended for analytics dashboards or alerts.
 
 
-## 📌 Future Improvements
-- Enhance attention model accuracy
-- Add reporting dashboard for teachers
-- Export summaries as PDF or CSV
-
