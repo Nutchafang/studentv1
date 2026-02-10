@@ -1,33 +1,30 @@
 Student Attention
 
-## 🎯 Business Problem
-With more online classes, teachers struggle to monitor student attention and engagement in real time.
-This project aims to provide a tool that supports teachers by analyzing student behavior
-from livestream or recorded feeds and returning interpretable engagement metrics.
+Business Problem
+In online learning environments, teachers are unable to effectively assess
+students’ attention and engagement levels.
+This makes it difficult for teachers to adjust teaching methods and respond
+to student needs in a timely manner.
 
-## 📌 Objective
-To build a web-based application that visualizes student attention levels and helps educators
-understand class engagement patterns during online learning sessions.
+Objective
+The objective of this project is to provide teachers with summarized insights
+into student attention levels, enabling them to make better-informed
+teaching decisions.
 
-## 🗂️ Project Overview
-This system consists of:
-1. **Frontend** (Next.js) – Interactive UI for users to upload video / view attention results
-2. **Backend** (Python API) – Runs attention analysis logic and serves processed data
-3. **Database** – Stores session results and metrics for later review
+Solution Overview
+The solution is a system that receives video data from online classes,
+analyzes student behavior, and transforms the results into clear and
+easy-to-understand insights for teachers.
 
-## 🛠️ Tech Stack
-- **Frontend:** Next.js, Tailwind CSS, React Components
-- **Backend:** Python (Flask / FastAPI), AI Attention Models
-- **Database:** Prisma ORM
-- **Deployment:** (Add if you deploy, e.g., Vercel / Render)
+Process Flow
+The overall workflow consists of four main steps:
+1.Users interact with the system through a web interface.
+2.The system sends the data to the backend for processing.
+3.The backend analyzes and computes attention-related results.
+4.The results are returned and displayed on the web interface in an
+easy-to-understand format.
 
-## 🚀 How It Works (High-level)
-1. User uploads or streams video via the web interface.
-2. Backend processes video frames with attention analysis logic.
-3. Backend returns attention scores or engagement summaries.
-4. Frontend visualizes results in charts or tables.
-
-## 📊 Business Value
+Business Value
 - Helps teachers spot disengaged students quickly.
 - Provides metrics instead of manual observation.
 - Can be extended for analytics dashboards or alerts.
