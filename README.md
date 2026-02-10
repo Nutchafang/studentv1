@@ -18,11 +18,10 @@ easy-to-understand insights for teachers.
 
 # Process Flow
 The overall workflow consists of four main steps:
-1. Users interact with the system through a web interface.
-2. The system sends the data to the backend for processing.
-3. The backend analyzes and computes attention-related results.
-4. The results are returned and displayed on the web interface in an
-   easy-to-understand format.
+1. Users access the system through a web interface and upload or stream class video data.
+2. The video data is sent to the backend system for processing.
+3. The backend analyzes student behavior and calculates attention metrics.
+4. The analyzed results are sent back and displayed on the web interface in a clear and easy-to-understand format.
 
 # Business Value
 - Helps teachers quickly identify disengaged students.
