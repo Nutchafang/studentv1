@@ -32,11 +32,6 @@ This system consists of:
 - Provides metrics instead of manual observation.
 - Can be extended for analytics dashboards or alerts.
 
-## 📥 Setup & Run (Summary)
-1. Clone repository
-2. Install frontend dependencies (`npm install`)
-3. Setup Python backend environment and requirements
-4. Run both servers to start the full application
 
 ## 📌 Future Improvements
 - Enhance attention model accuracy
