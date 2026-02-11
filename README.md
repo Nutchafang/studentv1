@@ -28,5 +28,4 @@ The overall workflow consists of four main steps:
 - Provides objective metrics instead of manual observation.
 - Can be extended to support analytics dashboards or alert systems.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26de22b4-9a24-4257-83d1-a1f6fa4e0c6b" />
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f38faa7a-9989-4285-8e87-24ce02229ea3" />
